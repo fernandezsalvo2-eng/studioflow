@@ -1,57 +1,22 @@
-STUDIOFLOW — VERSIONE FACILE DA MODIFICARE
-==============================================
+STUDIOFLOW — LANDING PAGE
+===========================
 
-La cosa importante è questa:
+File:
+- index.html
+- style.css
+- script.js
 
->>> PER LE MODIFICHE NORMALI DEVI APRIRE SOLO "config.js" <<<
-
-Non serve capire HTML, CSS o JavaScript.
-
-COSA PUOI CAMBIARE DA config.js
---------------------------------
-- nome del brand
-- titolo principale
-- descrizione
-- testo dei pulsanti
-- servizi
-- portfolio
-- testo "Chi sono"
-- WhatsApp
-- email
-- testo finale
-
-COME MODIFICARE
----------------
+COME USARLA
 1. Estrai lo ZIP.
-2. Apri la cartella.
-3. Apri "config.js" con Blocco Note, VS Code o un altro editor.
-4. Cambia il testo tra le virgolette.
-5. Salva.
-6. Apri "index.html" nel browser.
+2. Apri index.html nel browser.
+3. Per pubblicarla, carica i tre file su Netlify, Vercel, GitHub Pages o sul tuo hosting.
 
-WHATSAPP
---------
-Cambia:
-whatsappNumber: "391234567890"
+DA PERSONALIZZARE
+- In index.html cerca:
+  https://wa.me/391234567890
+  e sostituisci il numero con il tuo WhatsApp, usando il formato internazionale.
+- Sostituisci ciao@studioflow.it con la tua email.
+- Nella sezione portfolio puoi sostituire i blocchi grafici con i tuoi video/immagini.
+- Il logo SF è realizzato direttamente in CSS/testo, quindi non richiede file esterni.
 
-Inserisci il tuo numero internazionale senza +, spazi o trattini.
-
-EMAIL
------
-Cambia:
-email: "ciao@studioflow.it"
-
-PORTFOLIO
----------
-Puoi cambiare titolo e categoria direttamente nella lista "portfolio".
-
-NOTA SULLE IMMAGINI
--------------------
-Per ora le immagini del portfolio sono grafiche demo generate con CSS.
-Quando avrai i tuoi lavori reali, posso prepararti una versione in cui
-carichi semplicemente JPG/PNG/WEBP e il sito li mostra automaticamente.
-
-PUBBLICAZIONE
--------------
-Quando è pronto puoi caricare la cartella su un hosting statico
-(es. Netlify, Vercel o GitHub Pages).
+Nota: i pulsanti WhatsApp ed Email sono già funzionanti; i pulsanti portfolio aprono una finestra demo.
